@@ -6,25 +6,24 @@ export default {};
 
 <template>
   <div id="app">
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-              <p>
-                <router-link to="/">Go To Home</router-link>
-                <router-link to="/profile">Go To Profile</router-link>
-              </p>
-            </div>
-            <router-view class="col-12"></router-view>
-        </div>
+    <div class="header">
+      <p>
+        <router-link to="/">Go To Home</router-link>
+        <router-link to="/profile">Go To Profile</router-link>
+      </p>
     </div>
+    <router-view></router-view>
   </div>
 </template>
 
 <style lang="scss">
 @import "styles/index.scss";
 
-#app {
-  display: flex;
-  flex: 1;
+.header {
+  background-color: $secondary-color;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  color: $primary-color;
 }
 </style>
