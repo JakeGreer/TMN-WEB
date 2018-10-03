@@ -29,13 +29,14 @@ $dark-secondary-color: #4e4c4a;
   border-radius: 3px;
   padding: 5px 10px;
   background: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+  width: 100%;
 }
 
 .btn {
   padding: 10px;
   text-align: center;
-  color: white !important;
+  color: white;
   border-radius: 5px;
   box-shadow: 1px 2px 2px $dark-secondary-color;
 
